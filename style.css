@@ -1,15 +1,18 @@
 body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(102, 102, 247);
+
+  justify-content: center;
+  align-items: center;
 }
 #sound-machine {
   background-image: url(sound-machine.png);
   background-size: cover;
   display: flex;
-  background-color: rgb(102, 102, 247);
-
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .sound-button {
@@ -28,4 +31,14 @@ body {
   color: #333;
   transition: 0.5s;
   transform: scale(0.9);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+
+  display: block;
 }
