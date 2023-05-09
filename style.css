@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+#sound-machine {
+  background-image: url(sound-machine.png);
+  background-size: cover;
+  display: flex;
+  background-color: rgb(102, 102, 247);
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sound-button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.sound-button:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
